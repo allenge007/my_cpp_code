@@ -1,0 +1,38 @@
+---
+Lanuage : Cpp
+BasedOnStyle : Google
+# 括号换行
+AlignAfterOpenBracket : AlwaysBreak
+# 对齐结构体数组
+AlignArrayOfStructures : Right
+# 连续声明对齐
+AlignConsecutiveAssignments : AcrossComments
+AlignConsecutiveBitFields : AcrossComments
+AlignConsecutiveMacros : AcrossComments
+# 竖直对齐表达式的操作数
+AlignOperands : Align
+# 允许参数在下一行上
+AllowAllArgumentsOnNextLine : 'true'
+# 允许函数声明的参数在下一行上
+AllowAllParametersOfDeclarationOnNextLine : 'true'
+# 允许短语法块在单行上
+AllowShortBlocksOnASingleLine : Always
+# 允许短枚举在单行上
+AllowShortEnumsOnASingleLine : 'true'
+# 允许短函数在单行上
+AllowShortFunctionsOnASingleLine : InlineOnly
+# 允许if块在单行上
+AllowShortIfStatementsOnASingleLine : AllIfsAndElse
+# 允许短Lambda函数在单行上
+AllowShortLambdasOnASingleLine : All
+# 大括号换行
+BreakBeforeBraces : Linux
+Cpp11BracedListStyle : 'false'
+# 指针对齐风格
+PointerAlignment : Right
+ReferenceAlignment : Right
+# 赋值操作符空格
+SpaceBeforeAssignmentOperators : 'true'
+SpaceBeforeCpp11BracedList : 'true'
+Standard : Latest
+---
