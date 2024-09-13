@@ -24,7 +24,7 @@
           "program": "cmd",
           "args": [
               "/C",
-              "${fileDirname}/${fileBasenameNoExtension}.exe"
+              "${fileDirname}/bin/${fileBasenameNoExtension}.exe"
           ],
           "stopAtEntry": false,
           "cwd": "${fileDirname}",
@@ -36,7 +36,7 @@
           "name": "Debug",
           "type": "cppdbg",
           "request": "launch",
-          "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+          "program": "${fileDirname}/bin/${fileBasenameNoExtension}.exe",
           "args": [],
           "stopAtEntry": false,
           "cwd": "C:\\translater\\mingw64\\bin",
