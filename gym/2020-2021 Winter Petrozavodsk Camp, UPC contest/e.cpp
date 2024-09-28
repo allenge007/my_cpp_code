@@ -106,7 +106,7 @@ int main() {
         qury[i] = {l, r, i};
     }
     sort(qury + 1, qury + q + 1, [](node x, node y) {
-        return x.l/BLOCK_SIZE == y.l/BLOCK_SIZE ? x.r < y.r : x.l/BLOCK_SIZE < y.l/BLOCK_SIZE;
+        return x.l/BLOCK_SIZE ^ y.l/BLOCK_SIZE ? x.l/BLOCK_SIZE < y.l/BLOCK_SIZE : x.l/BLOCK_SIZE & 1 ? x.r < y.r : x.r > y.r;
     });
     int l = 0, r = -1;
     for(int i = 1; i <= q; i ++) {
