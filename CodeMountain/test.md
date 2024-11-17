@@ -1,0 +1,1 @@
+$ n = p_1^{k_1} \times p_2^{k_2} \times \cdots \times p_m^{k_m} ] 那么欧拉函数 (\phi(n)) 可以表示为： [ \phi(n) = n \times \left(1 - \frac{1}{p_1}\right) \times \left(1 - \frac{1}{p_2}\right) \times \cdots \times \left(1 - \frac{1}{p_m}\right) $
